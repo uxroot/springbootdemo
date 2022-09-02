@@ -1,0 +1,12 @@
+spring:
+
+  mvc:
+
+    pathmatch:
+
+      matching-strategy: ANT_PATH_MATCHER # 解决swaggerUI不匹配接口
+knife4j:
+        enable: true
+        #true则是生产环境不允许访问knife4j
+        production: false
+
